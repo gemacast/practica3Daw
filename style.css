@@ -1,0 +1,24 @@
+/*
+Theme Name: Momentum
+Author: Gemma Castells
+Author URI: https://github.com/gemacast
+Description:  Tema personalizado creado desde cero como parte de las prácticas de DAW. Enfocado en desarrollo personal, con diseño limpio, moderno y adaptable. Preparado para utilizar HTML, Bootstrap y funciones básicas de WordPress.
+Version: 1.0
+Version: 1.0
+Tags:blog, personal-growth, responsive, bootstrap, minimal, clean-design, educational
+Text Domain: momentum
+*/
+
+
+.suscribir{
+    background: url(images/fondo.png) no-repeat center bottom;
+    background-size: cover;
+    height: 600px;
+}
+.logo{
+    max-height: 130px;
+    width: auto;
+}
+.menulateral{
+    background: blue;
+}
