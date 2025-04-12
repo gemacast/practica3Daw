@@ -21,4 +21,30 @@ function clase_item_menu($classes, $item, $args, $depth) {
     return $classes;
 }
 
+//Agregando imagenes destacadas
+
+if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+}
+
+// Agregando sidebar
+
+add_action( 'widgets_init', 'my_register_sidebars' );
+function my_register_sidebars() {
+	/* Register the 'menulateral' sidebar. */
+	register_sidebar(
+		array(
+			'id'            => 'menu-lateral',
+			'name'          => __( 'Menu lateral' ),
+			'description'   => __( 'Sidebar lateral izquierdo de las entradas.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s my-3">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+	/* Repeat register_sidebar() code for additional sidebars. */
+}
 ?>
+
+

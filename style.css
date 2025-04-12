@@ -10,15 +10,3 @@ Text Domain: momentum
 */
 
 
-.suscribir{
-    background: url(images/fondo.png) no-repeat center bottom;
-    background-size: cover;
-    height: 600px;
-}
-.logo{
-    max-height: 130px;
-    width: auto;
-}
-.menulateral{
-    background: blue;
-}
