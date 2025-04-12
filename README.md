@@ -205,4 +205,4 @@ register_sidebar( array(
 - Página de inicio personalizada
 - Compatible con edición desde el panel de administración
 
-🎯 El tema "Momentum" está preparado para entregarse como práctica final.
+
